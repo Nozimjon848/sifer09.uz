@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+
+body {
+  margin: 0;
+  height: 100%;
+  background-image: linear-gradient(to top, #d9afd9 0%, #97d9e1 100%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.button_container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  display: flex;
+  top: 30%;
+}
+
+.description, .link {
+  font-family: 'Amatic SC', cursive;
+  text-align: center;
+}
+
+.description {
+  font-size: 35px;
+}
+
+.btn {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  background-color: #222;
+  padding: 5px 40px;
+  margin: 0 auto;
+  margin: 0 2vh;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: #78c7d2;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.link {
+  font-size: 20px;
+  margin-top: 30px;
+}
+
+.link a {
+  color: #000;
+  font-size: 25px; 
+}
+.as{
+    position: relative;
+    width: 90%;
+    left: 5%;
+}
+.as h1{
+   font-size: 2.9vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.as p{
+   font-size: 2vh;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+    </style>
+    <div class="as">
+        <h1><a href="index.html" style="text-decoration: none;"> 🔙</a> Telegram Premium</h1>
+        <p>Telegram Premium — bu Telegram messenjerining pullik versiyasi bo'lib, u qo'shimcha funksiyalarni taqdim etadi. Telegram Premium obunachilari odatdagi foydalanuvchilarga nisbatan bir qator imtiyozlarga ega bo'ladilar. Quyidagi ba'zi asosiy xususiyatlarni keltirish mumkin: </p>
+    </div>
+    <div class="button_container">
+        <a href="https://t.me/Sifer09"><button class="btn"><span>Premium olish</span></button></a>
+       <a href="https://t.me/Sifer09"> <button class="btn"><span>Adminga murojaat</span></button></a>
+      </div>
+</body>
+</html>
